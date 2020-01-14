@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('./public'));
 
 app.get('/hello', (request, response) => {
-  response.status(200).send('Hello');
+  response.status(200).send('Hello, 301 is the best class ever!');
 });
 
 app.get('/data', (request, response) => {
